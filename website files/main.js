@@ -57,4 +57,20 @@ close.addEventListener('click', () => container.classList.remove('show-nav'))
 function popupFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
-  }
+}
+
+// selecting color icons js 
+const color_icons = document.querySelectorAll('.cicon')
+
+color_icons.forEach(cicon => {
+    cicon.addEventListener('click', () => {
+        removeActiveClass()
+        cicon.classList.add('clicked')
+    })
+})
+
+function removeActiveClass() {
+    color_icons.forEach(cicon => {
+        cicon.classList.remove('clicked')
+    })
+}
