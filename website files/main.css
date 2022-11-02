@@ -199,7 +199,7 @@ body {
     border-radius: 50%;
 }
 
-.buywords img:hover {
+.clicked {
     border: 3px solid #9615db;
 }
 
