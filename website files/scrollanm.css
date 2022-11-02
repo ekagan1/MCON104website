@@ -1,0 +1,64 @@
+/* moving boxes section css */
+.scrollanm {
+    display: flex;
+    justify-content: center;
+    background-color: #d2d3d3;
+    width: 100vw;
+    height: 400px;
+    position: relative;
+    top: -280px;
+}
+
+.box {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translatey(400%);
+    position: relative;
+    top: 30px;
+}
+
+.box:hover {
+    background-color: #9615db;
+    color: white;
+}
+
+#box1 {
+    transition: transform 1s ease;
+}
+
+#box2 {
+    transition: transform 1.5s ease;
+}
+
+#box3 {
+    transition: transform 2s ease;
+}
+
+#box4 {
+    transition: transform 2.5s ease;
+}
+  
+.box.show {
+    transform: translatey(0);
+}
+
+.scrollanm img {
+    position: relative;
+    top: -00px;
+    height: 100px;
+}
+.scrollanm h4 {
+    text-align: center;
+    position: relative;
+    top: -00px;
+    width: 200px;
+}
