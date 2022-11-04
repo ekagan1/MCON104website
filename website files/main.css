@@ -45,7 +45,7 @@ body {
     text-transform: uppercase;
     font-weight: light;
     overflow: hidden;
-    width:fit-content;
+    width: fit-content;
 }
 
 .title h1 {
@@ -291,4 +291,14 @@ body {
 
 .footer ul {
     list-style-type: none;
+}
+
+.links {
+    position: relative;
+    left: 20px;
+    padding-bottom: 25px;
+}
+.links a{
+    text-decoration: underline;
+    padding: 10px;
 }
